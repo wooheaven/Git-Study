@@ -1,11 +1,11 @@
-# List git only remote branch
+# List remote branch
 ```
 git branch -r
   origin/HEAD -> origin/master
   origin/master
 ```
 
-# List git all remote/local branch
+# List remote/local branch
 ```
 git branch -a
 * master

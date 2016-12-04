@@ -1,11 +1,11 @@
 # delete origin/HEAD remote symbolic
-```
+```git
 git branch -a
 * master
   remotes/origin/HEAD -> origin/master
   remotes/origin/master
 
-**git remote set-head origin -d**
+git remote set-head origin -d
 
 git branch -a
 * master

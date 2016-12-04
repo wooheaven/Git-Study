@@ -1,3 +1,5 @@
 [git branch](01_git_branch.md)
 
-[02_git_set-head](02_git_set-head.md)
+[git remote set-head](02_git_remote_set-head.md)
+
+

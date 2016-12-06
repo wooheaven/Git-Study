@@ -13,8 +13,6 @@ git branch -a
 ```
 # set origin/HEAD point to the remote's currnt branch
 ```Shell
-git remote set-head origin -a
-
 git branch -a
 * master
   remotes/origin/master

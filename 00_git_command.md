@@ -6,4 +6,9 @@ git branch -a
 git branch -v
 git branch -vv
 ```
+
 # [git remote set-head](02_git_remote_set-head.md)
+```
+git remote set-head origin -d
+git remote set-head origin -a
+```

@@ -28,6 +28,7 @@ git branch -v
 ```
 
 # list-up local branch and SHA-1 hash and remote branch which refered and last commit 
+```
 git branch -vv
 * 2-git-branch-v 7f9690c [origin/2-git-branch-v] Merge branch '1-git-branch-a-git-remote-set-head-origin-d-git-branch-a-git-remote-set-head-origin-a' into 'master'
   master         7f9690c [origin/master] Merge branch '1-git-branch-a-git-remote-set-head-origin-d-git-branch-a-git-remote-set-head-origin-a' into 'master'

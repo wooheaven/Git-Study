@@ -12,3 +12,8 @@ git branch -vv
 git remote set-head origin -d
 git remote set-head origin -a
 ```
+
+# [git clone](03_git_clone.md)
+```
+git clone
+```

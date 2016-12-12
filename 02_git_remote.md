@@ -1,3 +1,9 @@
+# listUp remote repository's fetch/push URL
+```
+git remote -v
+origin    git@gitlab.com:wooheaven/Git-Document.git (fetch)
+origin    git@gitlab.com:wooheaven/Git-Document.git (push)
+```
 # delete origin/HEAD remote symbolic
 ```Shell
 git branch -a

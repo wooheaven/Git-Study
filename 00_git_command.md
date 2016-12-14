@@ -1,6 +1,6 @@
 # [git clone](01_git_clone.md)
 ```
-git clone
+git clone gitRepositoryURL:UserName/gitProject
 ```
 
 # [git remote](02_git_remote.md)

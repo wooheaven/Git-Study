@@ -10,12 +10,17 @@ git remote set-head origin -d
 git remote set-head origin -a
 ```
 
-# [git checkout](03_git_checkout.md)
+# [git fetch](03_git_fetch.md)
+```
+git fetch -v
+```
+
+# [git checkout](04_git_checkout.md)
 ```
 git checkout --track origin/remoteBranch
 ```
 
-# [git branch](04_git_branch.md)
+# [git branch](05_git_branch.md)
 ```
 git branch
 git branch -r
@@ -24,7 +29,7 @@ git branch -v
 git branch -vv
 ```
 
-# [git push](05_git_push.md)
+# [git push](06_git_push.md)
 ```
 git push origin localBranch:remoteBranch
 ```

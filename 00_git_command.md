@@ -16,12 +16,17 @@ git remote set-url origin gitRepositoryURL:UserName/gitProject
 git fetch -v
 ```
 
-# [git checkout](04_git_checkout.md)
+# [git pull](04_git_pull.md)
+```
+git pull
+```
+
+# [git checkout](05_git_checkout.md)
 ```
 git checkout --track origin/remoteBranch
 ```
 
-# [git branch](05_git_branch.md)
+# [git branch](06_git_branch.md)
 ```
 git branch
 git branch -r
@@ -30,7 +35,7 @@ git branch -v
 git branch -vv
 ```
 
-# [git push](06_git_push.md)
+# [git push](07_git_push.md)
 ```
 git push origin localBranch:remoteBranch
 ```

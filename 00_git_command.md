@@ -33,6 +33,7 @@ git branch -r
 git branch -a
 git branch -v
 git branch -vv
+git branch -avv
 ```
 
 # [git push](07_git_push.md)

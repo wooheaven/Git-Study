@@ -13,7 +13,7 @@ git remote set-url origin gitRepositoryURL:UserName/gitProject
 
 # [git fetch](03_git_fetch.md)
 ```
-git fetch -v
+git fetch -p
 ```
 
 # [git pull](04_git_pull.md)

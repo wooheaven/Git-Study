@@ -29,4 +29,16 @@ Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
     renamed:    07_git_push.md -> 08_git_push.md
+
+git commit
+[12-git-status 94af345] modify 00 07 08
+ 3 files changed, 38 insertions(+), 1 deletion(-)
+ create mode 100644 07_git_status.md
+ rename 07_git_push.md => 08_git_push.md (100%)
+
+git status
+On branch 12-git-status
+Your branch is ahead of 'origin/12-git-status' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
 ```

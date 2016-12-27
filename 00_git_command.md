@@ -41,7 +41,12 @@ git branch -avv
 git status
 ```
 
-# [git push](08_git_push.md)
+# [git commit](08_git_commit.md)
+```
+git commit
+```
+
+# [git push](09_git_push.md)
 ```
 git push origin localBranch:remoteBranch
 ```

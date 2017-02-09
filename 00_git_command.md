@@ -46,7 +46,12 @@ git status
 git commit
 ```
 
-# [git push](09_git_push.md)
+# [git squash commit](09_git_squash_commit.md)
+```
+git reset --soft HEAD~9 && git commit
+```
+
+# [git push](10_git_push.md)
 ```
 git push origin localBranch:remoteBranch
 ```

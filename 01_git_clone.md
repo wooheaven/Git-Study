@@ -1,8 +1,8 @@
 # clone remote branch to local branch
 ```Shell
-ls
+$ ls
 
-git clone git@gitlab.com:wooheaven/Git-Document.git
+$ git clone git@gitlab.com:wooheaven/Git-Document.git
 Cloning into 'Git-Document'...
 remote: Counting objects: 176, done.
 remote: Compressing objects: 100% (94/94), done.
@@ -11,6 +11,6 @@ Receiving objects: 100% (176/176), 15.51 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (54/54), done.
 Checking connectivity... done.
 
-ls
+$ ls
 Git-Document
 ```

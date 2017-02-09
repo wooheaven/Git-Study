@@ -46,7 +46,7 @@ git status
 git commit
 ```
 
-# [git push](09_git_push.md)
+# [git push](10_git_push.md)
 ```
 git push origin localBranch:remoteBranch
 ```

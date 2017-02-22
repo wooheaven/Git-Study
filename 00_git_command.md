@@ -61,3 +61,8 @@ $ git push origin :remoteBranch
 ```{bash}
 $ git log
 ```
+
+# [git revert](12_git_revert.md)
+```{bash}
+$ git revert
+```

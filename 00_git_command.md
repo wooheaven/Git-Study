@@ -10,7 +10,7 @@ $ git remote set-head origin -d
 $ git remote set-head origin -a
 $ git remote set-url origin gitRepositoryURL:UserName/gitProject
 $ git remote rename origin gitlab
-$ git remote add github git://gitlab.com/wooheaven/Git-Study.git
+$ git remote add github git@gitlab.com/wooheaven/Git-Study.git
 $ git remote show github
 ```
 

@@ -9,6 +9,7 @@ $ git remote -v
 $ git remote set-head origin -d
 $ git remote set-head origin -a
 $ git remote set-url origin gitRepositoryURL:UserName/gitProject
+$ git remote rename origin gitlab
 ```
 
 # [git fetch](03_git_fetch.md)

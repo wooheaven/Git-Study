@@ -46,23 +46,29 @@ $ git status
 $ git commit
 ```
 
-# [git squash commit](09_git_squash_commit.md)
+# [git reset](09_git_reset_soft.md)
+```{bash}
+$ git reset --soft HEAD~2
+$ git reset --soft HEAD^
+```
+
+# [git squash commit](10_git_squash_commit.md)
 ```{bash}
 $ git reset --soft HEAD~9 && git commit
 ```
 
-# [git push](10_git_push.md)
+# [git push](11_git_push.md)
 ```{bash}
 $ git push origin localBranch:remoteBranch
 $ git push origin :remoteBranch
 ```
 
-# [git log](11_git_log.md)
+# [git log](12_git_log.md)
 ```{bash}
 $ git log
 ```
 
-# [git revert](12_git_revert.md)
+# [git revert](13_git_revert.md)
 ```{bash}
 $ git revert
 ```

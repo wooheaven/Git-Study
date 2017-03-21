@@ -17,6 +17,7 @@ $ git remote show github
 # [git fetch](03_git_fetch.md)
 ```{bash}
 $ git fetch -p
+$ git fetch --all
 ```
 
 # [git pull](04_git_pull.md)

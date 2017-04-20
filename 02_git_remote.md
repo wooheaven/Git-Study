@@ -47,7 +47,7 @@ origin	git@github.com:wooheaven/Git-Document.git (fetch)
 origin	git@github.com:wooheaven/Git-Document.git (push)
 ```
 
-# change remote rename from origin to gitlab
+# change remote name origin to gitlab
 ```{bash}
 $ git remote -v
 origin	git@gitlab.com:wooheaven/Git-Study.git (fetch)

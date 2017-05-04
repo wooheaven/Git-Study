@@ -76,3 +76,14 @@ $ git log
 ```{bash}
 $ git revert
 ```
+
+# [git config](16_git_config.md)
+```{bash}
+$ git commit
+# ...
+# ...
+  modified: targetFile.txt
+# ...
+
+:wq
+```

@@ -67,7 +67,7 @@ $ git push origin localBranch:remoteBranch
 $ git push origin :remoteBranch
 ```
 
-# [git log](12_git_log.md)
+# [git log](14_git_log.md)
 ```{bash}
 $ git log
 ```

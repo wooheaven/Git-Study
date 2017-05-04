@@ -61,7 +61,7 @@ $ git reset --soft HEAD^
 $ git reset --soft HEAD~9 && git commit
 ```
 
-# [git push](11_git_push.md)
+# [git push](13_git_push.md)
 ```{bash}
 $ git push origin localBranch:remoteBranch
 $ git push origin :remoteBranch

@@ -45,12 +45,22 @@ $ git branch -avv
 $ git status
 ```
 
-# [git commit](08_git_commit.md)
+# [git diff](08_git_diff.md)
+```{bash}
+$ git diff
+```
+
+# [git difftool](09_git_difftool.md)
+```{bash}
+$ git difftool
+```
+
+# [git commit](10_git_commit.md)
 ```{bash}
 $ git commit
 ```
 
-# [git reset](09_git_reset_soft.md)
+# [git reset](11_git_reset_soft.md)
 ```{bash}
 $ git reset --soft HEAD~2
 $ git reset --soft HEAD^

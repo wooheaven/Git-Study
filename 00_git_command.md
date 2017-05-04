@@ -56,7 +56,7 @@ $ git reset --soft HEAD~2
 $ git reset --soft HEAD^
 ```
 
-# [git squash commit](10_git_squash_commit.md)
+# [git squash commit](12_git_squash_commit.md)
 ```{bash}
 $ git reset --soft HEAD~9 && git commit
 ```

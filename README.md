@@ -1,9 +1,9 @@
-# [git clone](01_git_clone.md)
+# [git clone](01_git_command/01_git_clone.md)
 ```{bash}
 $ git clone gitRepositoryURL:UserName/gitProject
 ```
 
-# [git remote](02_git_remote.md)
+# [git remote](01_git_command/02_git_remote.md)
 ```{bash}
 $ git remote -v
 $ git remote set-head origin -d
@@ -14,23 +14,23 @@ $ git remote add github git@gitlab.com/wooheaven/Git-Study.git
 $ git remote show github
 ```
 
-# [git fetch](03_git_fetch.md)
+# [git fetch](01_git_command/03_git_fetch.md)
 ```{bash}
 $ git fetch -p
 $ git fetch --all
 ```
 
-# [git pull](04_git_pull.md)
+# [git pull](01_git_command/04_git_pull.md)
 ```{bash}
 $ git pull
 ```
 
-# [git checkout](05_git_checkout.md)
+# [git checkout](01_git_command/05_git_checkout.md)
 ```{bash}
 $ git checkout --track origin/remoteBranch
 ```
 
-# [git branch](06_git_branch.md)
+# [git branch](01_git_command/06_git_branch.md)
 ```{bash}
 $ git branch
 $ git branch -r
@@ -40,39 +40,60 @@ $ git branch -vv
 $ git branch -avv
 ```
 
-# [git status](07_git_status.md)
+# [git status](01_git_command/07_git_status.md)
 ```{bash}
 $ git status
 ```
 
-# [git commit](08_git_commit.md)
+# [git diff](01_git_command/08_git_diff.md)
+```{bash}
+$ git diff
+```
+
+# [git difftool](01_git_command/09_git_difftool.md)
+```{bash}
+$ git difftool
+```
+
+# [git commit](01_git_command/10_git_commit.md)
 ```{bash}
 $ git commit
 ```
 
-# [git reset](09_git_reset_soft.md)
+# [git reset](01_git_command/11_git_reset_soft.md)
 ```{bash}
 $ git reset --soft HEAD~2
 $ git reset --soft HEAD^
 ```
 
-# [git squash commit](10_git_squash_commit.md)
+# [git squash commit](01_git_command/12_git_squash_commit.md)
 ```{bash}
 $ git reset --soft HEAD~9 && git commit
 ```
 
-# [git push](11_git_push.md)
+# [git push](01_git_command/13_git_push.md)
 ```{bash}
 $ git push origin localBranch:remoteBranch
 $ git push origin :remoteBranch
 ```
 
-# [git log](12_git_log.md)
+# [git log](01_git_command/14_git_log.md)
 ```{bash}
 $ git log
 ```
 
-# [git revert](13_git_revert.md)
+# [git revert](01_git_command/15_git_revert.md)
 ```{bash}
 $ git revert
+```
+
+# [git config](01_git_command/16_git_config.md)
+```{bash}
+$ git commit
+# ...
+# ...
+  modified: targetFile.txt
+# ...
+
+:wq
 ```

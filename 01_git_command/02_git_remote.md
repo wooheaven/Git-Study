@@ -130,3 +130,43 @@ $ git remote show gitlab
     20-git-remote-add pushes to 20-git-remote-add (up to date)
     master            pushes to master            (up to date)
 ```
+
+# git remote add local gitlab-ce on docker with specified port for ssh
+```
+$ cat .git/config 
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gitlab"]
+	url = git@gitlab.com:wooheaven/Spark-Java-Study.git
+	fetch = +refs/heads/*:refs/remotes/gitlab/*
+[branch "master"]
+	remote = gitlab
+	merge = refs/heads/master
+[remote "github"]
+	url = git@github.com:wooheaven/Spark-Java-Study.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+
+$ git remote add myGitLab ssh://git@localhost:220/wooheaven/Spark-Java-Study.git
+
+$ cat .git/config 
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gitlab"]
+	url = git@gitlab.com:wooheaven/Spark-Java-Study.git
+	fetch = +refs/heads/*:refs/remotes/gitlab/*
+[branch "master"]
+	remote = gitlab
+	merge = refs/heads/master
+[remote "github"]
+	url = git@github.com:wooheaven/Spark-Java-Study.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "myGitLab"]
+	url = ssh://git@localhost:220/wooheaven/Spark-Java-Study.git
+	fetch = +refs/heads/*:refs/remotes/myGitLab/*
+```

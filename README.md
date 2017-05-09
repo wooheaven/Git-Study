@@ -12,6 +12,7 @@ $ git remote set-url origin gitRepositoryURL:UserName/gitProject
 $ git remote rename origin gitlab
 $ git remote add github git@gitlab.com/wooheaven/Git-Study.git
 $ git remote show github
+$ git remote add myGitLab ssh://git@localhost:220/wooheaven/Spark-Java-Study.git
 ```
 
 # [git fetch](01_git_command/03_git_fetch.md)

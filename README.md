@@ -49,11 +49,13 @@ $ git status
 # [git diff](01_git_command/08_git_diff.md)
 ```{bash}
 $ git diff
+$ git diff 29-diff-between-branch1-and-branch2:./01_git_command/ master:./01_git_command/
 ```
 
 # [git difftool](01_git_command/09_git_difftool.md)
 ```{bash}
 $ git difftool
+$ git difftool 29-diff-between-branch1-and-branch2:./01_git_command/ master:./01_git_command/
 ```
 
 # [git commit](01_git_command/10_git_commit.md)

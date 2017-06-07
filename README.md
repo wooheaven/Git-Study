@@ -29,6 +29,7 @@ $ git pull
 # [git checkout](01_git_command/05_git_checkout.md)
 ```{bash}
 $ git checkout --track origin/remoteBranch
+$ git checkout -- README.md
 ```
 
 # [git branch](01_git_command/06_git_branch.md)

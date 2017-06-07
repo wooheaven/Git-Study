@@ -5,6 +5,49 @@ origin    git@gitlab.com:wooheaven/Git-Document.git (fetch)
 origin    git@gitlab.com:wooheaven/Git-Document.git (push)
 ```
 
+# remove remote repository and create remote repository
+```{bash}
+$ git branch -avv
+* master                                    c8a4eff [gitlab/master] Merge branch '47-git-commit-sync' into 'master'
+  remotes/github/master                     c8a4eff Merge branch '47-git-commit-sync' into 'master'
+  remotes/gitlab/HEAD                       -> gitlab/master
+  remotes/gitlab/master                     c8a4eff Merge branch '47-git-commit-sync' into 'master'
+  remotes/myGitLab/1-git-branch-master-sync d72600a Revert "Merge branch '46-4-install-scala2-12-1-on-centos6-9' into 'master'"
+  remotes/myGitLab/master                   d72600a Revert "Merge branch '46-4-install-scala2-12-1-on-centos6-9' into 'master'"
+
+$ git remote remove myGitLab
+
+$ git branch -avv
+* master                c8a4eff [gitlab/master] Merge branch '47-git-commit-sync' into 'master'
+  remotes/github/master c8a4eff Merge branch '47-git-commit-sync' into 'master'
+  remotes/gitlab/HEAD   -> gitlab/master
+  remotes/gitlab/master c8a4eff Merge branch '47-git-commit-sync' into 'master'
+
+$ git remote add myGitLab ssh://git@localhost:220/wooheaven/Spark-Java-Study.git
+
+$ git fetch --all
+gitlab을(를) 가져오는 중
+github을(를) 가져오는 중
+myGitLab을(를) 가져오는 중
+
+$ git push myGitLab master
+Counting objects: 565, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (412/412), done.
+Writing objects: 100% (565/565), 68.15 KiB | 0 bytes/s, done.
+Total 565 (delta 197), reused 104 (delta 34)
+remote: Resolving deltas: 100% (197/197), done.
+To ssh://git@localhost:220/wooheaven/Spark-Java-Study.git
+ * [new branch]      master -> master
+
+$ git branch -avv
+* master                  c8a4eff [gitlab/master] Merge branch '47-git-commit-sync' into 'master'
+  remotes/github/master   c8a4eff Merge branch '47-git-commit-sync' into 'master'
+  remotes/gitlab/HEAD     -> gitlab/master
+  remotes/gitlab/master   c8a4eff Merge branch '47-git-commit-sync' into 'master'
+  remotes/myGitLab/master c8a4eff Merge branch '47-git-commit-sync' into 'master'
+```
+
 # delete origin/HEAD remote symbolic
 ```{bash}
 $ git branch -a
@@ -132,7 +175,7 @@ $ git remote show gitlab
 ```
 
 # git remote add local gitlab-ce on docker with specified port for ssh
-```
+```{bash}
 $ cat .git/config 
 [core]
 	repositoryformatversion = 0

@@ -35,3 +35,32 @@ $ git commit
 #
 :wq
 ```
+
+# git config
+```{bash}
+$ cat ~/.gitconfig 
+[user]
+	email = wooheaven79@gmail.com
+	name = wooheaven
+[diff]
+	tool = vimdiff
+[core]
+	editor = vim
+```
+
+
+# git commit comment as ;
+```{bash}
+$ git config --global core.commentChar ';'
+
+$ cat ~/.gitconfig 
+[user]
+	email = wooheaven79@gmail.com
+	name = wooheaven
+[diff]
+	tool = vimdiff
+[core]
+	editor = vim
+	commentChar = ";"
+
+```

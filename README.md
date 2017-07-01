@@ -101,3 +101,10 @@ $ git commit
 
 :wq
 ```
+
+# [git merge](01_git_command/17_git_merge.md)
+```{bash}
+$ git checkout mater
+$ git merge --no-ff 31-git-local-merge
+$ git push gitlab master
+```

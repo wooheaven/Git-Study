@@ -17,8 +17,9 @@ $ git remote add myGitLab ssh://git@localhost:220/wooheaven/Spark-Java-Study.git
 
 # [git fetch](01_git_command/03_git_fetch.md)
 ```{bash}
-$ git fetch -p
+$ git fetch origin
 $ git fetch --all
+$ git fetch -p
 ```
 
 # [git pull](01_git_command/04_git_pull.md)

@@ -109,3 +109,10 @@ $ git checkout mater
 $ git merge --no-ff 31-git-local-merge
 $ git push gitlab master
 ```
+
+# [git tag](01_git_command/18_git_tag.md)
+```{bash}
+$ git tag
+$ git tag -l "v1.0.0"
+$ git tag -a "v1.0.0" -m "v1.0.0 is tagged"
+```

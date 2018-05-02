@@ -18,3 +18,17 @@ $ git merge --no-ff 7-insert-player-csv-file-to-postgresql-table
 ```{bash}
 $ git push gitlab master
 ```
+
+# cancel merge and fix confilct and pull
+```{bash}
+$ git pull
+You have not concluded your merge (MERGE_HEAD exists).
+Please, commit your changes before you can merge.
+
+$ git merge --abort
+
+$ # fix conflict
+
+$ git pull
+
+```

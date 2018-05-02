@@ -108,6 +108,7 @@ $ git commit
 $ git checkout mater
 $ git merge --no-ff 31-git-local-merge
 $ git push gitlab master
+$ git merge --abort
 ```
 
 # [git tag](01_git_command/18_git_tag.md)

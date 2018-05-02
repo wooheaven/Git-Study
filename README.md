@@ -117,3 +117,10 @@ $ git tag
 $ git tag -l "v1.0.0"
 $ git tag -a "v1.0.0" -m "v1.0.0 is tagged"
 ```
+
+# [git stash](01_git_command/19_git_stash.md)
+```{bash}
+$ git stash
+$ git stash list
+$ git stash pop
+```

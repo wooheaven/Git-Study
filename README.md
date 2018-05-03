@@ -68,7 +68,8 @@ $ git commit
 # [git reset](01_git_command/11_git_reset_soft.md)
 ```{bash}
 $ git reset --soft HEAD~2
-$ git reset --soft HEAD^
+$ git reset --mixed HEAD~
+$ git reset --hard HEAD^
 ```
 
 # [git squash commit](01_git_command/12_git_squash_commit.md)

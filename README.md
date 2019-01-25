@@ -1,3 +1,11 @@
+Git  
+╠══ 1 config  
+║&ensp;&ensp;&nbsp;╠══ 1.1 alias  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [git lg = git log --graph --decorate](02_git/01_config/01_alias.lg.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.2 [git commentChar = # -> ;](02_git/01_config/02_core.commentChar_semicolon.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.3 [git core.editor = vim](02_git/01_config/03_core.editor_vim.md)  
+
+
 # [git clone](01_git_command/01_git_clone.md)
 ```{bash}
 $ git clone gitRepositoryURL:UserName/gitProject
@@ -91,17 +99,6 @@ $ git log
 # [git revert](01_git_command/15_git_revert.md)
 ```{bash}
 $ git revert
-```
-
-# [git config](01_git_command/16_git_config.md)
-```{bash}
-$ git commit
-; ...
-; ...
-  modified: targetFile.txt
-; ...
-
-:wq
 ```
 
 # [git merge](01_git_command/17_git_merge.md)

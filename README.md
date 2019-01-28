@@ -1,9 +1,10 @@
 Git  
-╠══ 1 config  
-║&ensp;&ensp;&nbsp;╠══ 1.1 alias  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [git lg = git log --graph --decorate](02_git/01_config/01_alias.lg.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.2 [git commentChar = # -> ;](02_git/01_config/02_core.commentChar_semicolon.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.3 [git core.editor = vim](02_git/01_config/03_core.editor_vim.md)  
+╠══ 1 config --global  
+║&ensp;&ensp;&nbsp;╠══ 1.1 [git config --global alias.lg : git log --graph --decorate](02_git/01_config/01_alias.lg.md)  
+║&ensp;&ensp;&nbsp;╠══ 1.2 core  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.1 [git config --config core.commentChar : # -> ;](02_git/01_config/02_core.commentChar_semicolon.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.2.2 [git config --config core.editor : vim](02_git/01_config/03_core.editor_vim.md)  
+╠══ 2 [stash](02_git/02_stash/01_git_stash.md)  
 
 
 # [git clone](01_git_command/01_git_clone.md)

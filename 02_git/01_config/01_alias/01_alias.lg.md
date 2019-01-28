@@ -1,7 +1,13 @@
+# alias lg
 ```{bash}
-$ git config --get-regexp alias
 $ git config --global alias.lg log --graph --decorate
+```
+
+# check
+```{bash}
+$ git config --global alias.lg
 $ git config --get-regexp alias
+$ cat ~/.gitconfig 
 ```
 
 # before

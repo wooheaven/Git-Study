@@ -1,7 +1,8 @@
 git  
 ╠══ 1 config --global  
 ║&ensp;&ensp;&nbsp;╠══ 1.1 alias  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [lg : git log --graph --decorate](02_git/01_config/01_alias/01_alias.lg.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [git config --global alias.lg : git log --graph --decorate](02_git/01_config/01_alias/01_alias.lg.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.2 [git config --global alias.sync : git fetch -p && git pull](02_git/01_config/01_alias/02_alias.sync.md)  
 ║&ensp;&ensp;&nbsp;╠══ 1.2 core  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.1 [git config --config core.commentChar : # -> ;](02_git/01_config/02_core.commentChar_semicolon.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.2.2 [git config --config core.editor : vim](02_git/01_config/03_core.editor_vim.md)  

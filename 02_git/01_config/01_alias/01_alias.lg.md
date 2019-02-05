@@ -1,6 +1,6 @@
 # alias lg
 ```{bash}
-$ git config --global alias.lg log --graph --decorate
+$ git config --global alias.lg 'log --graph --decorate'
 ```
 
 # check

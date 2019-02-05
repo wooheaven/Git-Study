@@ -6,13 +6,9 @@ git
 ║&ensp;&ensp;&nbsp;╠══ 1.2 core  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.1 [git config --config core.commentChar : # -> ;](02_git/01_config/02_core/01_core.commentChar_semicolon.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.2.2 [git config --config core.editor : vim](02_git/01_config/02_core/02_core.editor_vim.md)  
-╠══ 2 [stash](02_git/02_stash/01_git_stash.md)  
+╠══ 2 [clone](02_git/02_clone/01_git_clone.md)  
+╠══ 3 [stash](02_git/03_stash/01_git_stash.md)  
 
-
-# [git clone](01_git_command/01_git_clone.md)
-```{bash}
-$ git clone gitRepositoryURL:UserName/gitProject
-```
 
 # [git remote](01_git_command/02_git_remote.md)
 ```{bash}

@@ -7,20 +7,9 @@ git
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.1 [git config --config core.commentChar : # -> ;](02_git/01_config/02_core/01_core.commentChar_semicolon.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.2.2 [git config --config core.editor : vim](02_git/01_config/02_core/02_core.editor_vim.md)  
 ╠══ 2 [clone](02_git/02_clone/01_git_clone.md)  
-╠══ 3 [stash](02_git/03_stash/01_git_stash.md)  
+╠══ 3 [remote](02_git/03_remote/01_git_remote.md)  
+╠══ 4 [stash](02_git/04_stash/01_git_stash.md)  
 
-
-# [git remote](01_git_command/02_git_remote.md)
-```{bash}
-$ git remote -v
-$ git remote set-head origin -d
-$ git remote set-head origin -a
-$ git remote set-url origin gitRepositoryURL:UserName/gitProject
-$ git remote rename origin gitlab
-$ git remote add github git@gitlab.com/wooheaven/Git-Study.git
-$ git remote show github
-$ git remote add myGitLab ssh://git@localhost:220/wooheaven/Spark-Java-Study.git
-```
 
 # [git fetch](01_git_command/03_git_fetch.md)
 ```{bash}

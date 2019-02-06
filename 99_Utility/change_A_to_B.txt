@@ -1,2 +1,2 @@
-02_git/01_config/02_core.commentChar_semicolon.md -> 02_git/01_config/02_core/01_core.commentChar_semicolon.md
-02_git/01_config/03_core.editor_vim.md -> 02_git/01_config/02_core/02_core.editor_vim.md
+01_git_command/02_git_remote.md -> 02_git/03_remote/01_git_remote.md
+02_git/03_stash/01_git_stash.md -> 02_git/04_stash/01_git_stash.md

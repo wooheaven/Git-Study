@@ -1,22 +1,16 @@
 git  
 ╠══ 1 config --global  
 ║&ensp;&ensp;&nbsp;╠══ 1.1 alias  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [git config --global alias.lg : git log --graph --decorate](02_git/01_config/01_alias/01_alias.lg.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.2 [git config --global alias.sync : git fetch -p && git pull](02_git/01_config/01_alias/02_alias.sync.md)  
-║&ensp;&ensp;&nbsp;╠══ 1.2 core  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.1 [git config --config core.commentChar : # -> ;](02_git/01_config/02_core/01_core.commentChar_semicolon.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.2.2 [git config --config core.editor : vim](02_git/01_config/02_core/02_core.editor_vim.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [alias.lg : git log --graph --decorate](02_git/01_config/01_alias/01_alias.lg.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.2 [alias.sync : git fetch -p && git pull](02_git/01_config/01_alias/02_alias.sync.md)  
+║&ensp;&ensp;&nbsp;╚══ 1.2 core  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 1.2.1 [core.commentChar : # -> ;](02_git/01_config/02_core/01_core.commentChar_semicolon.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 1.2.2 [core.editor : vim](02_git/01_config/02_core/02_core.editor_vim.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 1.2.3 [core.pager : cat or less](02_git/01_config/02_core/03_core.pager_cat.md)  
 ╠══ 2 [clone](02_git/02_clone/01_git_clone.md)  
-╠══ 3 [remote](02_git/03_remote/01_git_remote.md)  
-╠══ 4 [stash](02_git/04_stash/01_git_stash.md)  
-
-
-# [git fetch](01_git_command/03_git_fetch.md)
-```{bash}
-$ git fetch origin
-$ git fetch --all
-$ git fetch -p
-```
+╠══ 3 [fetch](02_git/03_fetch/01_git_fetch.md)  
+╠══ 4 [remote](02_git/04_remote/01_git_remote.md)  
+╠══ 5 [stash](02_git/05_stash/01_git_stash.md)  
 
 # [git pull](01_git_command/04_git_pull.md)
 ```{bash}

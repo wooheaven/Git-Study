@@ -1,3 +1,1 @@
-01_git_command/04_git_pull.md -> 02_git/04_pull/01_git_pull.md
-02_git/04_remote/01_git_remote.md -> 02_git/05_remote/01_git_remote.md
-02_git/05_stash/01_git_stash.md -> 02_git/06_stash/01_git_stash.md
+01_git_command/18_git_tag.md -> 02_git/07_tag/01_git_tag.md

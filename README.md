@@ -14,6 +14,7 @@ git
 ╠══ 4 [pull](02_git/04_pull/01_git_pull.md)  
 ╠══ 5 [remote](02_git/05_remote/01_git_remote.md)  
 ╠══ 6 [stash](02_git/06_stash/01_git_stash.md)  
+╠══ 7 [tag](02_git/07_tag/01_git_tag.md)
 
 # [git checkout](01_git_command/05_git_checkout.md)
 ```{bash}
@@ -87,14 +88,6 @@ $ git checkout mater
 $ git merge --no-ff 31-git-local-merge
 $ git push gitlab master
 $ git merge --abort
-```
-
-# [git tag](01_git_command/18_git_tag.md)
-```{bash}
-$ git tag
-$ git tag -l "*V1.0"
-$ git tag "tmpV1.0"
-$ git tag -d tmpV1.0
 ```
 
 # [git stash](01_git_command/19_git_stash.md)

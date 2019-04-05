@@ -10,3 +10,8 @@ $ cat ~/.gitconfig
 ```{bash}
 $ git config --global pager.branch false
 ```
+
+# pager.stash
+```{bash}
+$ git config --global pager.stash false
+```

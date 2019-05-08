@@ -6,12 +6,9 @@ $ git config --global core.pager ''  # remove value of core.pager
 $ cat ~/.gitconfig
 ```
 
-# pager.branch 
+# core.pager off 
 ```{bash}
 $ git config --global pager.branch false
-```
-
-# pager.stash
-```{bash}
 $ git config --global pager.stash false
+$ git config --global pager.config false
 ```

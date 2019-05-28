@@ -1,6 +1,2 @@
-01_git/05_fetch/01_git_fetch.md -> 01_git/06_fetch/01_git_fetch.md
-01_git/06_pull/01_git_pull.md -> 01_git/07_pull/01_git_pull.md
-01_git/07_remote/01_git_remote.md -> 01_git/08_remote/01_git_remote.md
-01_git/08_stash/01_git_stash.md -> 01_git/09_stash/01_git_stash.md
-01_git/09_status/01_git_status.md -> 01_git/10_status/01_git_status.md
-01_git/10_tag/01_git_tag.md -> 01_git/11_tag/01_git_tag.md
+01_git/04_config/01_alias/02_alias.lg.md -> 01_git/04_config/01_alias/03_alias.lg.md
+01_git/04_config/01_alias/03_alias.sync.md -> 01_git/04_config/01_alias/04_alias.sync.md

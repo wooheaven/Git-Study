@@ -4,26 +4,23 @@
 04.0.0 ╠═4 config --global  
 04.1.0 ║ ╠═4.1 alias  
 04.1.1 ║ ║ ╠═4.1.1 [alias.dt : git difftool](01_git/04_config/01_alias/01_alias.dt.md)  
-04.1.2 ║ ║ ╠═4.1.2 [alias.lg : git log --graph --decorate](01_git/04_config/01_alias/02_alias.lg.md)  
-04.1.3 ║ ║ ╚═4.1.3 [alias.sync : git fetch -p && git pull](01_git/04_config/01_alias/03_alias.sync.md)  
+04.1.2 ║ ║ ╠═4.1.2 [alias.dtg : git difftool --gui](01_git/04_config/01_alias/02_alias.dtg.md)  
+04.1.3 ║ ║ ╠═4.1.3 [alias.lg : git log --graph --decorate](01_git/04_config/01_alias/03_alias.lg.md)  
+04.1.4 ║ ║ ╚═4.1.4 [alias.sync : git fetch -p && git pull](01_git/04_config/01_alias/04_alias.sync.md)  
 04.2.0 ║ ╠═4.2 core  
 04.2.1 ║ ║ ╠═4.2.1 [core.commentChar : # -> ;](01_git/04_config/02_core/01_core.commentChar_semicolon.md)  
 04.2.2 ║ ║ ╠═4.2.2 [core.editor : vim](01_git/04_config/02_core/02_core.editor_vim.md)  
 04.2.3 ║ ║ ╚═4.2.3 [core.pager : cat, less or pager.cmd](01_git/04_config/02_core/03_core.pager_cat.md)  
-04.3.0 ║ ╚═4.3 [diff.tool : vimdiff](01_git/04_config/03_diff/01_diff.tool.md)  
-05.0.0 ╠═5 [diff](01_git/05_diff/01_git_diff.md)    
+04.3.0 ║ ╚═4.3 diff  
+04.3.1 ║ - ╠═4.3.1 [diff.guitool : p4merge](01_git/04_config/03_diff/01_diff.guitool_p4merge.md)  
+04.3.2 ║ - ╚═4.3.2 [diff.tool : vimdiff](01_git/04_config/03_diff/02_diff.tool_vimdiff.md)  
+05.0.0 ╠═5 [diff : diff HEAD vs WorkingDirectory, Branch vs Branch, Commit vs Commit](01_git/05_diff/01_git_diff.md)    
 06.0.0 ╠═6 [fetch](01_git/06_fetch/01_git_fetch.md)  
 07.0.0 ╠═7 [pull](01_git/07_pull/01_git_pull.md)  
 08.0.0 ╠═8 [remote](01_git/08_remote/01_git_remote.md)  
 09.0.0 ╠═9 [stash](01_git/09_stash/01_git_stash.md)  
 10.0.0 ╠═10 [status](01_git/10_status/01_git_status.md)  
 11.0.0 ╠═11 [tag](01_git/11_tag/01_git_tag.md)  
-
-# [git difftool](02_git_command/09_git_difftool.md)
-```{bash}
-$ git difftool
-$ git difftool 29-diff-between-branch1-and-branch2:./02_git_command/ master:./01_git_command/
-```
 
 # [git commit](02_git_command/10_git_commit.md)
 ```{bash}

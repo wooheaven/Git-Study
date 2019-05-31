@@ -14,13 +14,16 @@
 04.3.0 ║ ╚═4.3 diff  
 04.3.1 ║ - ╠═4.3.1 [diff.guitool : p4merge](01_git/04_config/03_diff/01_diff.guitool_p4merge.md)  
 04.3.2 ║ - ╚═4.3.2 [diff.tool : vimdiff](01_git/04_config/03_diff/02_diff.tool_vimdiff.md)  
-05.0.0 ╠═5 [diff : diff HEAD vs WorkingDirectory, Branch vs Branch, Commit vs Commit](01_git/05_diff/01_git_diff.md)    
+05.0.0 ╠═5 [diff : diff HEAD vs WorkingDirectory, Branch vs Branch, Commit vs Commit](01_git/05_diff/01_git_diff.md)  
 06.0.0 ╠═6 [fetch](01_git/06_fetch/01_git_fetch.md)  
-07.0.0 ╠═7 [pull](01_git/07_pull/01_git_pull.md)  
-08.0.0 ╠═8 [remote](01_git/08_remote/01_git_remote.md)  
-09.0.0 ╠═9 [stash](01_git/09_stash/01_git_stash.md)  
-10.0.0 ╠═10 [status](01_git/10_status/01_git_status.md)  
-11.0.0 ╠═11 [tag](01_git/11_tag/01_git_tag.md)  
+07.0.0 ╠═7 merge  
+07.1.0 ║ ╠═7.1 [merge flow](01_git/07_merge/01_git_merge_flow.md)  
+07.2.0 ║ ╚═7.2 [merge ff vs no-ff](01_git/07_merge/02_git_merge_ff_no-ff.md)  
+08.0.0 ╠═8 [pull](01_git/08_pull/01_git_pull.md)  
+09.0.0 ╠═9 [remote](01_git/09_remote/01_git_remote.md)  
+10.0.0 ╠═10 [stash](01_git/10_stash/01_git_stash.md)  
+11.0.0 ╠═11 [status](01_git/11_status/01_git_status.md)  
+12.0.0 ╚═12 [tag](01_git/12_tag/01_git_tag.md)  
 
 # [git commit](02_git_command/10_git_commit.md)
 ```{bash}
@@ -55,10 +58,3 @@ $ git log
 $ git revert
 ```
 
-# [git merge](02_git_command/17_git_merge.md)
-```{bash}
-$ git checkout mater
-$ git merge --no-ff 31-git-local-merge
-$ git push gitlab master
-$ git merge --abort
-```

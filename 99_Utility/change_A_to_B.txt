@@ -1,2 +1,6 @@
-01_git/04_config/01_alias/02_alias.lg.md -> 01_git/04_config/01_alias/03_alias.lg.md
-01_git/04_config/01_alias/03_alias.sync.md -> 01_git/04_config/01_alias/04_alias.sync.md
+02_git_command/17_git_merge.md -> 01_git/07_merge/01_git_merge.md
+01_git/07_pull/01_git_pull.md -> 01_git/08_pull/01_git_pull.md
+01_git/08_remote/01_git_remote.md -> 01_git/09_remote/01_git_remote.md
+01_git/09_stash/01_git_stash.md -> 01_git/10_stash/01_git_stash.md
+01_git/10_status/01_git_status.md -> 01_git/11_status/01_git_status.md
+01_git/11_tag/01_git_tag.md -> 01_git/12_tag/01_git_tag.md

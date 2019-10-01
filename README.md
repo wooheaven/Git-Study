@@ -13,28 +13,26 @@
 ║░║░╠═2 [core.editor : vim](01_git/05_config/02_core/02_core.editor_vim.md)  
 ║░║░╠═3 [core.pager : cat, less or pager.cmd](01_git/05_config/02_core/03_core.pager_cat.md)  
 ║░║░╚═4 [core.symlinks : exclude symlinks](01_git/05_config/02_core/04_core.symlinks.md)  
-║░╚═3 diff  
-║░░░╠═1 [diff.guitool : p4merge](01_git/05_config/03_diff/01_diff.guitool_p4merge.md)  
-║░░░╚═2 [diff.tool : vimdiff](01_git/05_config/03_diff/02_diff.tool_vimdiff.md)  
+║░╠═3 diff  
+║░║░╠═1 [diff.guitool : p4merge](01_git/05_config/03_diff/01_diff.guitool_p4merge.md)  
+║░║░╚═2 [diff.tool : vimdiff](01_git/05_config/03_diff/02_diff.tool_vimdiff.md)  
+║░╚═4 merge  
+║░░░╚═1 [merge.tool : p4merge](01_git/05_config/04_merge/01_merge.tool_p4merge.md)  
 ╠═6 [diff : diff HEAD vs WorkingDirectory, Branch vs Branch, Commit vs Commit](01_git/06_diff/01_git_diff.md)  
 ╠═7 [fetch](01_git/07_fetch/01_git_fetch.md)  
-╠═8 merge  
-║░╠═1 [merge flow](01_git/08_merge/01_git_merge_flow.md)  
-║░╚═2 [merge ff vs no-ff](01_git/08_merge/02_git_merge_ff_no-ff.md)  
-╠═9 [mv folder](01_git/09_mv/01_git_mv_folder.md)  
-╠═10 [pull](01_git/10_pull/01_git_pull.md)  
-╠═11 [push](01_git/11_push/01_git_push.md)  
-╠═12 [remote](01_git/12_remote/01_git_remote.md)  
-╠═13 [reset](01_git/13_reset/01_git_reset.md)  
-╠═14 [squash](01_git/14_squash/01_git_squash_commit.md)  
-╠═15 [stash](01_git/15_stash/01_git_stash.md)  
-╠═16 [status](01_git/16_status/01_git_status.md)  
-╚═17 [tag](01_git/17_tag/01_git_tag.md)  
-
-# [git log](02_git_command/14_git_log.md)
-```{bash}
-$ git log
-```
+╠═8 [log](01_git/08_log/01_git_log.md)  
+╠═9 merge  
+║░╠═1 [merge flow](01_git/09_merge/01_git_merge_flow.md)  
+║░╚═2 [merge ff vs no-ff](01_git/09_merge/02_git_merge_ff_no-ff.md)  
+╠═10 [mv folder](01_git/10_mv/01_git_mv_folder.md)  
+╠═11 [pull](01_git/11_pull/01_git_pull.md)  
+╠═12 [push](01_git/12_push/01_git_push.md)  
+╠═13 [remote](01_git/13_remote/01_git_remote.md)  
+╠═14 [reset](01_git/14_reset/01_git_reset.md)  
+╠═15 [squash](01_git/15_squash/01_git_squash_commit.md)  
+╠═16 [stash](01_git/16_stash/01_git_stash.md)  
+╠═17 [status](01_git/17_status/01_git_status.md)  
+╚═18 [tag](01_git/18_tag/01_git_tag.md)  
 
 # [git revert](02_git_command/15_git_revert.md)
 ```{bash}

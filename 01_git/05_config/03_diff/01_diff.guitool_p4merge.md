@@ -13,13 +13,11 @@ $ git config --global difftool.p4merge.keepTemporaries false
 # mac
 ```
 $ git config --global difftool.p4mergetool.cmd "/Applications/p4merge.app/Contents/Resources/launchp4merge \$LOCAL \$REMOTE"
-$ git config --global difftool.p4mergetool.cmd
-/Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
 ```
 
 # linux
 ```
-$ git config --global difftool.p4mergetool.cmd "p4merge $LOCAL $REMOTE"
+$ git config --global difftool.p4mergetool.cmd "p4merge \$LOCAL \$REMOTE"
 ```
 
 # check p4merge config

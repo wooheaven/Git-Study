@@ -25,15 +25,10 @@
 ╠═10 [pull](01_git/10_pull/01_git_pull.md)  
 ╠═11 [remote](01_git/11_remote/01_git_remote.md)  
 ╠═12 [reset](01_git/12_reset/01_git_reset.md)  
-╠═13 [stash](01_git/13_stash/01_git_stash.md)  
-╠═14 [status](01_git/14_status/01_git_status.md)  
-╚═15 [tag](01_git/15_tag/01_git_tag.md)  
-
-
-# [git squash commit](02_git_command/12_git_squash_commit.md)
-```{bash}
-$ git reset --soft HEAD~9 && git commit
-```
+╠═13 [squash](01_git/13_squash/01_git_squash_commit.md)  
+╠═14 [stash](01_git/14_stash/01_git_stash.md)  
+╠═15 [status](01_git/15_status/01_git_status.md)  
+╚═16 [tag](01_git/16_tag/01_git_tag.md)  
 
 # [git push](02_git_command/13_git_push.md)
 ```{bash}

@@ -18,7 +18,7 @@ $ git add file.txt
 $ git status             # 2 : v2,v2,v1
 
 $ git commit             # 3 : v2,v2,v2
-$ git status
+$ git status             # 3 : v2,v2,v2
 
 $ git reset HEAD~
 $ git status             # 1 : v2,v1,v1
@@ -33,7 +33,7 @@ $ git status             # 3 : v2,v2,v2
 # [ git reset --hard HEAD~ ] : reverse of [ vi file.txt && git add file.txt && git commit ]
 ```{bash}
 $ git status             # 1 : v1,v1,v1
-$ vi file.txt            
+$ vi file.txt
 $ git status             # 2 : v2,v1,v1
 
 $ git add file.txt

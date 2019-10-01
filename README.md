@@ -23,18 +23,13 @@
 ║░╚═2 [merge ff vs no-ff](01_git/08_merge/02_git_merge_ff_no-ff.md)  
 ╠═9 [mv folder](01_git/09_mv/01_git_mv_folder.md)  
 ╠═10 [pull](01_git/10_pull/01_git_pull.md)  
-╠═11 [remote](01_git/11_remote/01_git_remote.md)  
-╠═12 [reset](01_git/12_reset/01_git_reset.md)  
-╠═13 [squash](01_git/13_squash/01_git_squash_commit.md)  
-╠═14 [stash](01_git/14_stash/01_git_stash.md)  
-╠═15 [status](01_git/15_status/01_git_status.md)  
-╚═16 [tag](01_git/16_tag/01_git_tag.md)  
-
-# [git push](02_git_command/13_git_push.md)
-```{bash}
-$ git push origin localBranch:remoteBranch
-$ git push origin :remoteBranch
-```
+╠═11 [push](01_git/11_push/01_git_push.md)  
+╠═12 [remote](01_git/12_remote/01_git_remote.md)  
+╠═13 [reset](01_git/13_reset/01_git_reset.md)  
+╠═14 [squash](01_git/14_squash/01_git_squash_commit.md)  
+╠═15 [stash](01_git/15_stash/01_git_stash.md)  
+╠═16 [status](01_git/16_status/01_git_status.md)  
+╚═17 [tag](01_git/17_tag/01_git_tag.md)  
 
 # [git log](02_git_command/14_git_log.md)
 ```{bash}

@@ -1,4 +1,7 @@
-02_git_command/12_git_squash_commit.md -> 01_git/13_squash/01_git_squash_commit.md
-01_git/13_stash/01_git_stash.md -> 01_git/14_stash/01_git_stash.md
-01_git/14_status/01_git_status.md -> 01_git/15_status/01_git_status.md
-01_git/15_tag/01_git_tag.md -> 01_git/16_tag/01_git_tag.md
+02_git_command/13_git_push.md -> 01_git/11_push/01_git_push.md
+01_git/11_remote/01_git_remote.md -> 01_git/12_remote/01_git_remote.md
+01_git/12_reset/01_git_reset.md -> 01_git/13_reset/01_git_reset.md
+01_git/13_squash/01_git_squash_commit.md -> 01_git/14_squash/01_git_squash_commit.md
+01_git/14_stash/01_git_stash.md -> 01_git/15_stash/01_git_stash.md
+01_git/15_status/01_git_status.md -> 01_git/16_status/01_git_status.md
+01_git/16_tag/01_git_tag.md -> 01_git/17_tag/01_git_tag.md

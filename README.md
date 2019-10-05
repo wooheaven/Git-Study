@@ -29,13 +29,11 @@
 ╠═12 [push](01_git/12_push/01_git_push.md)  
 ╠═13 [remote](01_git/13_remote/01_git_remote.md)  
 ╠═14 [reset](01_git/14_reset/01_git_reset.md)  
-╠═15 [squash](01_git/15_squash/01_git_squash_commit.md)  
-╠═16 [stash](01_git/16_stash/01_git_stash.md)  
-╠═17 [status](01_git/17_status/01_git_status.md)  
-╚═18 [tag](01_git/18_tag/01_git_tag.md)  
-
-# [git revert](02_git_command/15_git_revert.md)
-```{bash}
-$ git revert
-```
+╠═15 [revert](01_git/15_revert/01_git_revert.md)  
+╠═16 [squash](01_git/16_squash/01_git_squash_commit.md)  
+╠═17 [stash](01_git/17_stash/01_git_stash.md)  
+╠═18 [status](01_git/18_status/01_git_status.md)  
+╠═19 [tag](01_git/19_tag/01_git_tag.md)  
+╚═98 ETC  
+░░╚═1 [GitLab : shortcuts](https://docs.gitlab.com/ee/workflow/shortcuts.html)  
 

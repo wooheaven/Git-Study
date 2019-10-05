@@ -1,12 +1,5 @@
-02_git_command/14_git_log.md -> 01_git/08_log/01_git_log.md
-01_git/08_merge/01_git_merge_flow.md -> 01_git/09_merge/01_git_merge_flow.md
-01_git/08_merge/02_git_merge_ff_no-ff.md -> 01_git/09_merge/02_git_merge_ff_no-ff.md
-01_git/09_mv/01_git_mv_folder.md -> 01_git/10_mv/01_git_mv_folder.md
-01_git/10_pull/01_git_pull.md -> 01_git/11_pull/01_git_pull.md
-01_git/11_push/01_git_push.md -> 01_git/12_push/01_git_push.md
-01_git/12_remote/01_git_remote.md -> 01_git/13_remote/01_git_remote.md
-01_git/13_reset/01_git_reset.md -> 01_git/14_reset/01_git_reset.md
-01_git/14_squash/01_git_squash_commit.md -> 01_git/15_squash/01_git_squash_commit.md
-01_git/15_stash/01_git_stash.md -> 01_git/16_stash/01_git_stash.md
-01_git/16_status/01_git_status.md -> 01_git/17_status/01_git_status.md
-01_git/17_tag/01_git_tag.md -> 01_git/18_tag/01_git_tag.md
+02_git_command/15_git_revert.md -> 01_git/15_revert/01_git_revert.md
+01_git/15_squash/01_git_squash_commit.md -> 01_git/16_squash/01_git_squash_commit.md
+01_git/16_stash/01_git_stash.md -> 01_git/17_stash/01_git_stash.md
+01_git/17_status/01_git_status.md -> 01_git/18_status/01_git_status.md
+01_git/18_tag/01_git_tag.md -> 01_git/19_tag/01_git_tag.md

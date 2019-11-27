@@ -1,4 +1,4 @@
-# push local branch to remote branch with same name branch
+# push local branch to remote repository with same name branch
 ```{bash}
 $ git branch -vv
 * 5-git-push 5ac3cbf [origin/5-git-push: ahead 1] add git push
@@ -20,6 +20,20 @@ To git@gitlab.com:wooheaven/Git-Document.git
 $ git branch -vv
 * 5-git-push 5ac3cbf [origin/5-git-push] add git push
   master     358374b [origin/master] Merge branch '4-git-remote-v' into 'master'
+```
+
+# push local branch to remote repository by force
+```
+$ git push -f github master 
+Enumerating objects: 209, done.
+Counting objects: 100% (209/209), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (120/120), done.
+Writing objects: 100% (191/191), 4.51 MiB | 2.11 MiB/s, done.
+Total 191 (delta 115), reused 120 (delta 71)
+remote: Resolving deltas: 100% (115/115), completed with 10 local objects.
+To github.com:wooheaven/Awesome-CV.git
+ + a867293...9027f7f master -> master (forced update)
 ```
 
 # remove remote branch

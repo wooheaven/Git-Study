@@ -22,4 +22,7 @@ github을(를) 가져오는 중
 $ git fetch -p  # git fetch --prune
 gitlab.com:wooheaven/Hattrick-Study URL에서
  x [삭제됨]          (없음)   -> gitlab/43-2017-07-23-player_skill_table-txt
+
+$ git fetch -p gitlab
+$ git fetch -p myloc
 ```

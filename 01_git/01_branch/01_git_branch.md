@@ -42,3 +42,16 @@ $ git branch -avv
   remotes/origin/HEAD              -> origin/master
   remotes/origin/master            83e51f0 Merge branch '9-git-pull' into 'master'
 ```
+
+# create local branch
+```
+$ git branch 68-git-branch
+
+$ git branch -avv
+  68-git-branch         db5b2f9 Merge branch '67-git-fetch-prune-2' into 'master'
+* master                db5b2f9 [gitlab/master] Merge branch '67-git-fetch-prune-2' into 'master'
+  remotes/github/master db5b2f9 Merge branch '67-git-fetch-prune-2' into 'master'
+  remotes/gitlab/HEAD   -> gitlab/master
+  remotes/gitlab/master db5b2f9 Merge branch '67-git-fetch-prune-2' into 'master'
+  remotes/myloc/master  db5b2f9 Merge branch '67-git-fetch-prune-2' into 'master'
+```

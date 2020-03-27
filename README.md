@@ -12,7 +12,8 @@
 ║░║░╠═1 [core.commentChar : # -> ;](01_git/05_config/02_core/01_core.commentChar_semicolon.md)  
 ║░║░╠═2 [core.editor : vim](01_git/05_config/02_core/02_core.editor_vim.md)  
 ║░║░╠═3 [core.pager : cat, less or pager.cmd](01_git/05_config/02_core/03_core.pager_cat.md)  
-║░║░╚═4 [core.symlinks : exclude symlinks](01_git/05_config/02_core/04_core.symlinks.md)  
+║░║░╠═4 [core.quotepath: enable korean](01_git/05_config/02_core/04_core.quotepath_korean.md)  
+║░║░╚═5 [core.symlinks : exclude symlinks](01_git/05_config/02_core/05_core.symlinks.md)  
 ║░╠═3 diff  
 ║░║░╠═1 [diff.guitool : p4merge](01_git/05_config/03_diff/01_diff.guitool_p4merge.md)  
 ║░║░╚═2 [diff.tool : vimdiff](01_git/05_config/03_diff/02_diff.tool_vimdiff.md)  

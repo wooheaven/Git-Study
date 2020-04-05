@@ -55,3 +55,18 @@ remote:
 To git@gitlab.com:wooheaven/Python2.7-Study.git
  * [new branch]      5-zen-of-python-english-korean -> 5-zen-of-python-english-korean
 ```
+
+# pre-receive hook declined
+```
+$ git push gitlab master
+...
+ ! [remote rejected] master -> master (pre-receive hook decliend)
+error failed to push some refs to '~.git'
+
+# Gitlab
+-> Settings
+-> Repository
+-> Protected Branches 설정
+-> master branch
+-> Unprotect
+```

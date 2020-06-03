@@ -39,5 +39,8 @@
 ╠═18 [status](01_git/18_status/01_git_status.md)  
 ╠═19 [tag](01_git/19_tag/01_git_tag.md)  
 ╚═98 ETC  
-░░╚═1 [GitLab : shortcuts](https://docs.gitlab.com/ee/workflow/shortcuts.html)  
+░░╚═1 GitLab  
+░░░░╠═1 [install GitLab : local hosting on docker](98_ETC/01_GitLab/01_install_local_hosting_GitLab_on_docker.md)  
+░░░░╚═2 [shortcuts](https://docs.gitlab.com/ee/workflow/shortcuts.html)  
+
 

@@ -62,9 +62,10 @@ Email = wooheaven79@gmail.com
 Password = 12qwaszx
 ```
 
-# add localRepository of project in order to connect to GitLab
+# remote add myloc (local hosting GitLab) to existing Git Project (Spark-Study)
 ```
-$ git remote add myloc ssh://git@localhost:122/wooheaven/Spark-Study.git
+$ git remote add myloc       git@localhost:wooheaven/Spark-Study.git     # use ssh with port 22
+$ git remote add myloc ssh://git@localhost:122/wooheaven/Spark-Study.git # use ssh with port 122 because docker port forwarding
 $ git fetch myloc 
 $ git push myloc master 
 Enumerating objects: 2068, done.
@@ -76,4 +77,15 @@ Total 2068 (delta 882), reused 753 (delta 280)
 remote: Resolving deltas: 100% (882/882), done.
 To ssh://localhost:122/wooheaven/Spark-Study.git
  * [new branch]      master -> master
+```
+
+# clone existing Git Project (Spark-Study) of local hosting GitLab
+```
+$ git clone       git@localhost:wooheaven/Spark-Study.git     # use ssh with port 22
+$ git clone ssh://git@localhost:122/wooheaven/Spark-Study.git # use ssh with port 122 because docker port forwarding
+Cloning into 'Spark-Study'...
+warning: You appear to have cloned an empty repository.
+
+$ cd Spark-Study
+$ git remote rename origin local
 ```

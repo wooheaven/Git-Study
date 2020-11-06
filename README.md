@@ -40,7 +40,8 @@
 ╠═19 [tag](01_git/19_tag/01_git_tag.md)  
 ╚═98 ETC  
 ░░╚═1 GitLab  
-░░░░╠═1 [install GitLab : local hosting on docker](98_ETC/01_GitLab/01_install_local_hosting_GitLab_on_docker.md)  
-░░░░╚═2 [shortcuts](https://docs.gitlab.com/ee/workflow/shortcuts.html)  
+░░░░╠═1 [change password of user](98_ETC/01_GitLab/01_change_password_of_user_on_gitlab.md)  
+░░░░╠═2 [install GitLab : local hosting on docker](98_ETC/01_GitLab/02_install_local_hosting_GitLab_on_docker.md)  
+░░░░╚═3 [shortcuts](https://docs.gitlab.com/ee/workflow/shortcuts.html)  
 
 

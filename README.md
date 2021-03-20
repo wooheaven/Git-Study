@@ -4,8 +4,8 @@
 ╠═4 [commit](01_git/04_commit/01_git_commit.md)  
 ╠═5 [config](https://git-scm.com/docs/git-config)  
 ║░╠═1 alias  
-║░║░╠═1 [alias.dt : git difftool](01_git/05_config/01_alias/01_alias.dt.md)  
-║░║░╠═2 [alias.dtg : git difftool --gui](01_git/05_config/01_alias/02_alias.dtg.md)  
+║░║░╠═1 [alias.dg : git difftool --gui](01_git/05_config/01_alias/01_alias.dg.md)  
+║░║░╠═2 [alias.dt : git difftool](01_git/05_config/01_alias/02_alias.dt.md)  
 ║░║░╠═3 [alias.lg : git log --graph --decorate](01_git/05_config/01_alias/03_alias.lg.md)  
 ║░║░╚═4 [alias.sync : git fetch -p && git pull](01_git/05_config/01_alias/04_alias.sync.md)  
 ║░╠═2 core  
@@ -15,7 +15,7 @@
 ║░║░╠═4 [core.quotepath: enable korean](01_git/05_config/02_core/04_core.quotepath_korean.md)  
 ║░║░╚═5 [core.symlinks : exclude symlinks](01_git/05_config/02_core/05_core.symlinks.md)  
 ║░╠═3 diff  
-║░║░╠═1 [diff.guitool : p4merge](01_git/05_config/03_diff/01_diff.guitool_p4merge.md)  
+║░║░╠═1 [diff.guitool : meld](01_git/05_config/03_diff/01_diff.guitool_meld.md)  
 ║░║░╚═2 [diff.tool : vimdiff](01_git/05_config/03_diff/02_diff.tool_vimdiff.md)  
 ║░╚═4 merge  
 ║░░░╚═1 [merge.tool : p4merge](01_git/05_config/04_merge/01_merge.tool_p4merge.md)  

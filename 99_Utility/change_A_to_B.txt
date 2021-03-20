@@ -1,1 +1,2 @@
-98_ETC/01_GitLab/01_install_local_hosting_GitLab_on_docker.md -> 98_ETC/01_GitLab/02_install_local_hosting_GitLab_on_docker.md
+01_git/05_config/01_alias/02_alias.dg.md -> 01_git/05_config/01_alias/01_alias.dg.md
+01_git/05_config/01_alias/01_alias.dt.md -> 01_git/05_config/01_alias/02_alias.dt.md

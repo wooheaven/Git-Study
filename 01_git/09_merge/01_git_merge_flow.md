@@ -1,35 +1,23 @@
-# Merge locally flow
+# Merge latest master into issue-branch
 
-## After Commit is done
+## first, finished on issue-branch
 ```{bash}
+$ git checkout -t original/7-issue
+$ # edit file
 $ git status
 $ git commit
+$ git status
 ```
 
-## Merge local 7-insert into master and fix any conflicts that come up
+## Merge master into issue-branch and fix any conflicts that come up
 ```{bash}
 $ git checkout master
-$ git merge --no-ff 7-insert-player-csv-file-to-postgresql-table
-```
-
-## If no conflicts, then push local master of remote master
-```{bash}
-$ git push gitlab master
-```
-
-## Solution 1 : On local master branch -> Cancel merge -> pull master -> fix confilct -> reTry merge
-```{bash}
-$ git pull  # can't pull remote master into local master
-You have not concluded your merge (MERGE_HEAD exists).
-Please, commit your changes before you can merge.
-$ git merge --abort
+$ git fetch --all
 $ git pull
+$ git checkout 7-issue
+$ git merge --no-ff master
+$ (if fail) git status
+$ (if fail) git merge --abort
 $ # fix conflict
-$ git merge --no-ff 7-insert-player-csv-file-to-postgresql-table
-```
-
-## Solution 2 : On local 7-insert branch -> fix confilict -> reTry merge
-```bash
-$ # fix conflict by mergetool ( this will automatically merge like below )
-$ # git merge --no-ff 7-insert-player-csv-file-to-postgresql-table
+$ git merge --no-ff master
 ```

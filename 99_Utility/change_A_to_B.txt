@@ -1,2 +1,2 @@
-01_git/05_config/01_alias/02_alias.dg.md -> 01_git/05_config/01_alias/01_alias.dg.md
-01_git/05_config/01_alias/01_alias.dt.md -> 01_git/05_config/01_alias/02_alias.dt.md
+01_git/08_log/02_git_log_format.md -> 01_git/08_log/03_git_log_format.md
+01_git/08_log/03_git_log_n_3.md -> 01_git/08_log/04_git_log_n_3.md

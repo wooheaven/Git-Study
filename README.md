@@ -40,10 +40,12 @@
 ╠═18 [status](01_git/18_status/01_git_status.md)  
 ╠═19 [tag](01_git/19_tag/01_git_tag.md)  
 ╚═98 ETC  
-░░╚═1 GitLab  
-░░░░╠═1 [change password of user](98_ETC/01_GitLab/01_change_password_of_user_on_gitlab.md)  
-░░░░╠═2 [install GitLab : local hosting on docker](98_ETC/01_GitLab/02_install_local_hosting_GitLab_on_docker.md)  
-░░░░╠═3 [backup and restore](98_ETC/01_GitLab/03_backup_local_hosting_GitLab_on_docker.md)  
+░░╠═1 Git  
+░░║░╚═1 [change branch master into main](98_ETC/01_Git/01_change_branch_master_into_main.md)  
+░░╚═2 GitLab  
+░░░░╠═1 [change password of user](98_ETC/02_GitLab/01_change_password_of_user_on_gitlab.md)  
+░░░░╠═2 [install GitLab : local hosting on docker](98_ETC/02_GitLab/02_install_local_hosting_GitLab_on_docker.md)  
+░░░░╠═3 [backup and restore](98_ETC/02_GitLab/03_backup_local_hosting_GitLab_on_docker.md)  
 ░░░░╚═4 [shortcuts](https://docs.gitlab.com/ee/workflow/shortcuts.html)  
 
 

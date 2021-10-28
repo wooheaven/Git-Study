@@ -1,2 +1,3 @@
-01_git/08_log/02_git_log_format.md -> 01_git/08_log/03_git_log_format.md
-01_git/08_log/03_git_log_n_3.md -> 01_git/08_log/04_git_log_n_3.md
+98_ETC/01_GitLab/01_change_password_of_user_on_gitlab.md -> 98_ETC/02_GitLab/01_change_password_of_user_on_gitlab.md
+98_ETC/01_GitLab/02_install_local_hosting_GitLab_on_docker.md -> 98_ETC/02_GitLab/02_install_local_hosting_GitLab_on_docker.md
+98_ETC/01_GitLab/03_backup_local_hosting_GitLab_on_docker.md -> 98_ETC/02_GitLab/03_backup_local_hosting_GitLab_on_docker.md

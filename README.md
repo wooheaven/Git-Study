@@ -23,8 +23,9 @@
 ╠═7 [fetch](01_git/07_fetch/01_git_fetch.md)  
 ╠═8 log  
 ║░╠═1 [git log](01_git/08_log/01_git_log.md)  
-║░╠═2 [git log --format="%p,%h,%s"](01_git/08_log/02_git_log_format.md)  
-║░╚═3 [git log -n 3](01_git/08_log/03_git_log_n_3.md)  
+║░╠═2 [git log --follow FILE](01_git/08_log/02_git_log_follow_file.md)  
+║░╠═3 [git log --format="%p,%h,%s"](01_git/08_log/03_git_log_format.md)  
+║░╚═4 [git log -n 3](01_git/08_log/04_git_log_n_3.md)  
 ╠═9 merge  
 ║░╠═1 [merge flow](01_git/09_merge/01_git_merge_flow.md)  
 ║░╚═2 [merge ff vs no-ff](01_git/09_merge/02_git_merge_ff_no-ff.md)  

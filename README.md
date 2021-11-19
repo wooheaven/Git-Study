@@ -10,11 +10,12 @@
 ║░║░║░╠═3 [alias.lg : git log --graph --decorate](01_git/05_config/01_alias/03_alias.lg.md)  
 ║░║░║░╚═4 [alias.sync : git fetch -p && git pull](01_git/05_config/01_alias/04_alias.sync.md)  
 ║░║░╠═2 core  
-║░║░║░╠═1 [core.commentChar : # -> ;](01_git/05_config/02_core/01_core.commentChar_semicolon.md)  
-║░║░║░╠═2 [core.editor : vim](01_git/05_config/02_core/02_core.editor_vim.md)  
-║░║░║░╠═3 [core.pager : cat, less or pager.cmd](01_git/05_config/02_core/03_core.pager_cat.md)  
-║░║░║░╠═4 [core.quotepath: enable korean](01_git/05_config/02_core/04_core.quotepath_korean.md)  
-║░║░║░╚═5 [core.symlinks : exclude symlinks](01_git/05_config/02_core/05_core.symlinks.md)  
+║░║░║░╠═1 [core.autocrlf : CRLF or LF](01_git/05_config/02_core/01_core.autocrlf.md)  
+║░║░║░╠═2 [core.commentChar : # -> ;](01_git/05_config/02_core/02_core.commentChar_semicolon.md)  
+║░║░║░╠═3 [core.editor : vim](01_git/05_config/02_core/03_core.editor_vim.md)  
+║░║░║░╠═4 [core.pager : cat, less or pager.cmd](01_git/05_config/02_core/04_core.pager_cat.md)  
+║░║░║░╠═5 [core.quotepath: enable korean](01_git/05_config/02_core/05_core.quotepath_korean.md)  
+║░║░║░╚═6 [core.symlinks : exclude symlinks](01_git/05_config/02_core/06_core.symlinks.md)  
 ║░║░╠═3 diff  
 ║░║░║░╠═1 [diff.guitool : meld](01_git/05_config/03_diff/01_diff.guitool_meld.md)  
 ║░║░║░╚═2 [diff.tool : vimdiff](01_git/05_config/03_diff/02_diff.tool_vimdiff.md)  

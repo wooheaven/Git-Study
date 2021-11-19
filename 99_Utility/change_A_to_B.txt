@@ -1,3 +1,5 @@
-98_ETC/01_GitLab/01_change_password_of_user_on_gitlab.md -> 98_ETC/02_GitLab/01_change_password_of_user_on_gitlab.md
-98_ETC/01_GitLab/02_install_local_hosting_GitLab_on_docker.md -> 98_ETC/02_GitLab/02_install_local_hosting_GitLab_on_docker.md
-98_ETC/01_GitLab/03_backup_local_hosting_GitLab_on_docker.md -> 98_ETC/02_GitLab/03_backup_local_hosting_GitLab_on_docker.md
+01_git/05_config/02_core/01_core.commentChar_semicolon.md -> 01_git/05_config/02_core/02_core.commentChar_semicolon.md
+01_git/05_config/02_core/02_core.editor_vim.md -> 01_git/05_config/02_core/03_core.editor_vim.md
+01_git/05_config/02_core/03_core.pager_cat.md -> 01_git/05_config/02_core/04_core.pager_cat.md
+01_git/05_config/02_core/04_core.quotepath_korean.md -> 01_git/05_config/02_core/05_core.quotepath_korean.md
+01_git/05_config/02_core/05_core.symlinks.md -> 01_git/05_config/02_core/06_core.symlinks.md

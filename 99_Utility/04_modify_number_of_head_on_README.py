@@ -16,7 +16,7 @@ class Rename():
         cwd = os.getcwd()
         if cwd.endswith('99_Utility'):
             readme_path = glob.glob(cwd + '/../README.md')
-        elif cwd.endswith('-Study'):
+        elif cwd.endswith('-study'):
             readme_path = glob.glob(cwd + '/README.md')
             print(readme_path)
         else:

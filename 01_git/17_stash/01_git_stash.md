@@ -4,6 +4,11 @@ $ git status
 $ git stash
 ```
 
+# show stashed changes
+```
+$ git stash show -p stash@{0}
+```
+
 # stash to working-directory
 ```{bash}
 $ git status

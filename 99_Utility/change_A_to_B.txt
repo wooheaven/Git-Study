@@ -1,5 +1,7 @@
-01_git/05_config/02_core/01_core.commentChar_semicolon.md -> 01_git/05_config/02_core/02_core.commentChar_semicolon.md
-01_git/05_config/02_core/02_core.editor_vim.md -> 01_git/05_config/02_core/03_core.editor_vim.md
-01_git/05_config/02_core/03_core.pager_cat.md -> 01_git/05_config/02_core/04_core.pager_cat.md
-01_git/05_config/02_core/04_core.quotepath_korean.md -> 01_git/05_config/02_core/05_core.quotepath_korean.md
-01_git/05_config/02_core/05_core.symlinks.md -> 01_git/05_config/02_core/06_core.symlinks.md
+01_git/13_remote/01_git_remote.md -> 01_git/14_remote/01_git_remote.md
+01_git/14_reset/01_git_reset.md -> 01_git/15_reset/01_git_reset.md
+01_git/15_revert/01_git_revert.md -> 01_git/16_revert/01_git_revert.md
+01_git/16_squash/01_git_squash_commit.md -> 01_git/17_squash/01_git_squash_commit.md
+01_git/17_stash/01_git_stash.md -> 01_git/18_stash/01_git_stash.md
+01_git/18_status/01_git_status.md -> 01_git/19_status/01_git_status.md
+01_git/19_tag/01_git_tag.md -> 01_git/20_tag/01_git_tag.md

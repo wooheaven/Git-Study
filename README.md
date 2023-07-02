@@ -22,7 +22,7 @@
 ║░║░║░╠═1 [diff.guitool : meld](01_git/05_config/03_diff/01_diff.guitool_meld.md)  
 ║░║░║░╚═2 [diff.tool : vimdiff](01_git/05_config/03_diff/02_diff.tool_vimdiff.md)  
 ║░║░╠═4 merge  
-║░║░║░╚═1 [merge.tool : p4merge](01_git/05_config/04_merge/01_merge.tool_p4merge.md)  
+║░║░║░╚═1 [merge.tool : meld](01_git/05_config/04_merge/01_merge.tool_meld.md)  
 ║░║░╚═5 pull  
 ║░║░░░╠═1 [pull.ff : only](01_git/05_config/05_pull/01_pull.ff_only.md)  
 ║░║░░░╚═2 [pull.rebase : false](01_git/05_config/05_pull/02_pull.rebase_false.md)  

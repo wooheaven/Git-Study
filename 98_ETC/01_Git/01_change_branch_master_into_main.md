@@ -88,5 +88,11 @@ warning: ignoring broken ref refs/remotes/gitlab/HEAD
   remotes/gitlab/main 2d0adc1 Merge branch '85-git-log-follow-path-to-a-file' into 'master'
 ```
 
+# Set upstream from local main to remote main
+```
+$ git branch --set-upstream-to=gitlab/main main
+branch 'main' set up to track 'gitlab/main'.
+```
+
 # ref
 [blog](https://bud.agency/rename-master-branch-main-git-gitlab)  

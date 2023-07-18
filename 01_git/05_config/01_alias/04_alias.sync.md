@@ -1,6 +1,6 @@
 # alias sync
 ```{bash}
-$ git config --global alias.sync '!git fetch -p && git pull'
+$ git config --global alias.sync '!git fetch -p && git merge'
 ```
 
 # check
